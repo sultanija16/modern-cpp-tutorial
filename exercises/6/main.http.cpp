@@ -12,7 +12,7 @@
 using namespace Web;
 
 int main() {
-    // HTTP server runs in port 12345 HTTP, enable 4 threads
+    // HTTP server runs in port 12345 HTTP, enables 4 threads
     Server<HTTP> server(12345, 4);
     std::cout << "Server starting at port: 12345" << std::endl;
     start_server<Server<HTTP>>(server);

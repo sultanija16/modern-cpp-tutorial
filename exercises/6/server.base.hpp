@@ -26,7 +26,7 @@ namespace Web {
         std::smatch path_match;
     };
 
-    // use typedef simplify resource type
+    // use typedef to simplify resource type
     typedef std::map<std::string, std::unordered_map<std::string,
     std::function<void(std::ostream&, Request&)>>> resource_type;
 

@@ -16,7 +16,7 @@ namespace Web {
     class Server<HTTP> : public ServerBase<HTTP> {
     public:
         // use port, thread number to construct web server
-        // http server is much simple than https since it doesn't need to initial config file
+        // http server is much simple than https since it doesn't need to initial configure file
         Server(unsigned short port, size_t num_threads=1) :
             ServerBase<HTTP>::ServerBase(port, num_threads) {};
     private:
